@@ -945,7 +945,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     tcmclient \
-    WfdCommon \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
