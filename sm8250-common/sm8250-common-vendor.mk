@@ -7,62 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/system/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-resampler.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhidlbase.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhidltransport.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib/libhscomp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhscomp.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib/libhscomp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhscomp_jni.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib/libhwbinder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwbinder.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib64/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio-resampler.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib64/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhidlbase.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib64/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhidltransport.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib64/libhscomp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhscomp.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib64/libhscomp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhscomp_jni.so \
-    vendor/xiaomi/sm8250-common/proprietary/system/lib64/libhwbinder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwbinder.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/sony_effect/clearphase_sp_param.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/clearphase_sp_param.bin \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/sony_effect/effect_params.data:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/effect_params.data \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/sony_effect/sforce_param_arm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/sforce_param_arm.bin \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/sony_effect/sforce_param_qdsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/sforce_param_qdsp.bin \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/sony_effect/xloud_param_arm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/xloud_param_arm.bin \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/sony_effect/xloud_param_qdsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/xloud_param_qdsp.bin \
-    vendor/xiaomi/sm8250-common/proprietary/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/com.sonyericsson.idd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.idd.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/com.sonymobile.getmore.api.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.getmore.api.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/dolby_dax.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/dolby_dax.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.dolby.daxservice.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/privapp-com.sonyericsson.soundenhancement.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.sonyericsson.soundenhancement.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/privapp-com.sonymobile.audioutil.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.sonymobile.audioutil.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/semc_audioeffectif.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/semc_audioeffectif.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/sonyaudioeffect.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/sonyaudioeffect.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/sysconfig/config-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM)/sysconfig/config-com.dolby.daxappui.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/sysconfig/config-com.dolby.daxservice.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/sysconfig/config-com.sonyericsson.soundenhancement.xml:$(TARGET_COPY_OUT_SYSTEM)/sysconfig/config-com.sonyericsson.soundenhancement.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system/etc/sysconfig/config-com.sonymobile.audioutil.xml:$(TARGET_COPY_OUT_SYSTEM)/sysconfig/config-com.sonymobile.audioutil.xml \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@2.0-service \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/dsx_param_file.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dsx_param_file.bin \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/media_codecs_somc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_somc.xml \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/libsonydseehxwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsonydseehxwrapper.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/libstagefright_soft_somcalacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_somcalacdec.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libeffectproxy.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/soundfx/libsonypostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonypostprocbundle.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/soundfx/libsonysweffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonysweffect.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libsonydseehxwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsonydseehxwrapper.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/nqnfcinfo:$(TARGET_COPY_OUT_VENDOR)/bin/nqnfcinfo \
     vendor/xiaomi/sm8250-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/sm8250-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
@@ -985,14 +929,4 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_vendor.xiaomi.hardware.mlipay \
     vendor.qti.gnss@4.0-service \
-    wfdservice \
-    sonyericsson.idd_impl \
-    sonymobile.getmore.api \
-    dolby_dax \
-    semc_audioeffectif \
-    sonyaudioeffect \
-    Audiosettings \
-    DaxUI \
-    daxService \
-    ExtendedAudioService \
-    SoundEnhancement
+    wfdservice
