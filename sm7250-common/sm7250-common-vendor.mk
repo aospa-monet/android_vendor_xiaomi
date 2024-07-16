@@ -312,6 +312,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
+    vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libqc2vppfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2vppfilter.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
@@ -514,6 +515,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libqc2vppfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqc2vppfilter.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
